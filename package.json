@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {"node":"16.17.0"},
+  "scripts": {
+    "build":"cd backend && npm i && cd ../client && npm i && npm run build",
+    "start": "node backend/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
