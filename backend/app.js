@@ -10,7 +10,7 @@ const app = express()
 const db = require('./db')
 
 const port = process.env.PORT || 4002
-const reactClientURL = process.env.URL || 'http://localhost:3000' // react client
+const reactClientURL = process.env.URL // react client
 
 app.use(express.static(path.resolve(__dirname, "../client/dist")));
 
